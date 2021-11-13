@@ -1,15 +1,27 @@
 
 .box{border-bottom: 1px solid grey;
-    width: 95%;
+    width: 85%;
 }
 
 .box p {
     display: inline-block;}
 
 #width{
-    width: 95%;
+    width: 85%;
 }
-.Left{text-align: center;}
+.Left{text-align: left;
+width: 85%;}
 
 .Right{
-    text-align: right;font-style: italic;
+    text-align: right; font-style: italic;}
+.footer{
+    border-top: 1px solid grey ;
+}
+h1,
+h2,
+.Left,
+.Right {text-transform: capitalize;}
+.Left{font-weight: bold;}
+a {
+    text-decoration: none;
+}
